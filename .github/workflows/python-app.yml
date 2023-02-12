@@ -19,4 +19,4 @@ jobs:
         script: |
             cd ${{ github.event.repository.name }}
             pwd
-            sh deploy_ssh.sh
+            sh deploy-ssh.sh
